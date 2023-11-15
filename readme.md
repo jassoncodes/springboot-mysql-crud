@@ -36,11 +36,11 @@
                 └───crud
 ```
 
-### Notas: 
-* 1º se define el modelo
-* 2º se define el servicio y los metodos para los verbos GET, POST, PUT, etc
-* 3º 2º se define el controlador
-* 4º se define el repositorio: clases para hacer queries a la base de datos. JPA es un ORM para hacer queries de manera mas rapida
+### Notes: 
+* 1º define the model
+* 2º define the repository and configure the database access. I'm using Spring Data JPA
+* 3º define the service and its methods (verbs GET, POST, etc)
+* 4º setup the controller for each endpoint
 
 #### Annotations
 * `@SpringBootApplication` define the entry point
